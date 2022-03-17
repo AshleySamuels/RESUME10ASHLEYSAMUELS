@@ -1,0 +1,75 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:110%;
+  background-image: url("ashley pic-large.jpg");
+}
+
+header {
+  text-align: center;
+  }
+
+#heading{
+  color:lightseagreen;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+#headshot{
+  width: 170px;
+  height: 170px;
+  border-radius: 60%;
+  margin: 10px;
+  object-fit: cover;
+  object-position: top 50%;
+  border: lightseagreen solid 10px;
+}
+
+footer {
+  background-color: lightpink;
+  text-align: center;
+  color:lightseagreen;
+}
+
+article{
+  background-color: lemonchiffon;
+}
+
+#sidebar{
+  width: 70%;
+  background-color: lemonchiffon;
+  color: lightseagreen;
+  padding: 2rem;
+  border-radius: 10px
+  }
+
+article{
+  background-color: lightgray;
+  border-color:lightpink;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+section{
+  border-color:lightpink;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.main{
+  display: flex;
+  margin-left: 1%;
+  flex: 1;
+}
+
+a:link{
+  color:inherit;
+}
+
+a:visited{
+  color: inherit;
+}
+
+.icons{
+  width: 3rem;
+  height: auto;
+  margin: 5%;
+}

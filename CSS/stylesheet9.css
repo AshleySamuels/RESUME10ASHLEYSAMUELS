@@ -1,0 +1,161 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:120%;
+  padding: 10px;
+  border: 10px;
+  border-radius: 12px;
+  margin: 5px;
+  color: peru;
+  background-position: center;
+  background-size: cover;
+  background-color: peru;
+  background-image: url(images/ashleyPic-large.jpg);
+}
+
+header {
+  text-align: center;
+  }
+
+#heading{
+    color:rgb(211, 130, 49);
+    font-family: Arial, Helvetica, sans-serif; 
+    border: 2px;
+    background-color: rgba(241, 236, 191, 0.801) ; 
+  }
+
+  body{
+    background-image: url("../images/ashleyPic-large.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100%;
+          width: 100%
+  }
+
+#headshot{
+  width: 170px;
+  height: 170px;
+  border-radius: 60%;
+  margin: 10px;
+  object-fit: cover;
+  object-position: top 50%;
+  border: peru solid 10px;
+}
+
+#name{
+  text-align: center;
+}
+
+#attribute{
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(241, 236, 191, 0.801);
+  text-align: center;
+  color:peru;
+  border: 5px solid peru;
+  border-radius: 12px;
+}
+
+#sidebar{
+  width: 60%;
+  background-color: rgb(241, 111, 130);
+  padding: 2rem;
+  border-radius: 10px
+  }
+
+  article{
+    background-color: rgba(255, 182, 193, 0.897);
+    border-color:lightseagreen;
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+  }
+
+  .main{
+    display: flex;
+    margin-left: 1%;
+    flex: 1;
+    background-color: rgba(255, 182, 193, 0.856);
+    padding: 2rem;
+    border-radius: 10px
+  }
+  
+  a:link{
+    color:inherit;
+  }
+  
+  a:visited{
+    color: inherit;
+  }
+  
+  .icons{
+    width: 3rem;
+    height: auto;
+    margin: 5%;
+  }
+
+  @viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.5;
+    max-zoom: 3;
+    user-zoom: fixed;
+  }
+  
+  /*code for mobile devices smaller than 600px*/
+img { background-image: url(ashleyPic-large.jpg);}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body {background-color:limegreen;}
+} 
+
+/* Medium devices (landscape tablets, 900px and up) */
+@media only screen and (min-width: 900px) {
+  body { background-color: purple; }
+}
+
+/*Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background-color: whitesmoke;}
+}
+
+.wrapper{
+  display: grid;
+  border: 4px solid peru;
+}
+
+.qualifications{
+  border: 5px solid lemonchiffon;
+  border-radius: 5px;
+  background: lightblue;
+}
+
+.experience{
+  border: 5px solid lemonchiffon;
+  border-radius: 5px;
+  background: lightblue;
+}
+
+.skills{
+  border: 5px solid lemonchiffon;
+  border-radius: 5px;
+  background: lightblue;
+}
+
+.interest{
+  border: 5px solid lemonchiffon;
+  border-radius: 5px;
+  background: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
