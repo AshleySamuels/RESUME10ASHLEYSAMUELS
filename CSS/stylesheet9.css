@@ -19,7 +19,7 @@ header {
 #heading{
     color:rgb(211, 130, 49);
     font-family: Arial, Helvetica, sans-serif; 
-    border: 2px;
+    border: 5px solid peru;
     background-color: rgba(241, 236, 191, 0.801) ; 
   }
 
@@ -47,10 +47,12 @@ header {
 
 #name{
   text-align: center;
+
 }
 
 #attribute{
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
