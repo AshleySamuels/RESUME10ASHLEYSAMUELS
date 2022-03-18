@@ -41,6 +41,10 @@ header {
   border: peru solid 10px;
 }
 
+#body{
+  border: rgb(211, 130, 49);
+}
+
 #name{
   text-align: center;
 }
@@ -165,11 +169,44 @@ img { background-image: url(ashleyPic-large.jpg);}
   background: lightblue;
 }
 
-.grid{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 50px 1fr;
-}
+/* Styling the open modal button */
+.btn-primary{
+  background-color: #B1A9D4;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ /* Styling the close modal button */
+ .closebtn {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ .closebtn:hover {
+  cursor: pointer;
+ }
+ 
+ /* Styling the text inside the modal */
+ .modalcontent {
+  position: relative;
+  font-size: 15px;
+  padding: 15px;
+  background-color: #DEDAF7;
+  width: 40%;
+  text-align: center;
+  margin: 2%;
+ }
+ 
+ .btn-secondary{
+  background-color: #B1A9D4;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+ }
 
 
 
