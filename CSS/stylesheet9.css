@@ -210,7 +210,28 @@ img { background-image: url(ashleyPic-large.jpg);}
   font-weight: bold;
  }
 
+ .container1{
+   width: 100%;
+   height: auto;
+   border: 5px solid peru;
  
+
+ /*add flexbox style*/
+
+ display: flex;
+ flex-direction: row;
+ justify-content:space-around
+ }
+
+ .box{
+   width: 20%;
+   height: 100px;
+   background: lemonchiffon;
+   margin: 20px;
+   box-sizing: border-box;
+   font-size: medium;
+   border: 5px solid peru;
+ }
 
 
 
