@@ -5,7 +5,7 @@ body{
   border: 10px;
   border-radius: 12px;
   margin: 5px;
-  color: peru;
+  color: darkslategrey;
   background-position: center;
   background-size: cover;
   background-color: peru;
@@ -25,10 +25,10 @@ header {
 
   body{
     background-image: url("../images/ashleyPic-large.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          height: 100%;
-          width: 100%
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%
   }
 
 #headshot{
@@ -47,18 +47,22 @@ header {
 
 #name{
   text-align: center;
+}
 
+.clf{
+  color: darkslategrey;
 }
 
 #attribute{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: darkslategrey;
 }
 
 footer {
   background-color: rgba(241, 236, 191, 0.801);
   text-align: center;
-  color:peru;
+  color:darkslategrey;
   border: 5px solid peru;
   border-radius: 12px;
 }
@@ -70,13 +74,8 @@ footer {
   border-radius: 10px
   }
 
-
-  article{
-    background-color: rgba(255, 182, 193, 0.897);
-    border-color:lightseagreen;
-    margin: 10px;
-    border-radius: 10px;
-    width: 90%;
+  #border{
+    border: 10px solid peru;
   }
 
   .main{
@@ -171,15 +170,6 @@ img { background-image: url(ashleyPic-large.jpg);}
   background: lightblue;
 }
 
-/* Styling the open modal button */
-.btn-primary{
-  background-color: #B1A9D4;
-  border-radius: 5px;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: bold;
- }
  /* Styling the close modal button */
  .closebtn {
   float: right;
@@ -189,17 +179,7 @@ img { background-image: url(ashleyPic-large.jpg);}
  .closebtn:hover {
   cursor: pointer;
  }
- 
- /* Styling the text inside the modal */
- .modalcontent {
-  position: relative;
-  font-size: 15px;
-  padding: 15px;
-  background-color: #DEDAF7;
-  width: 40%;
-  text-align: center;
-  margin: 2%;
- }
+
  
  .btn-secondary{
   background-color: #B1A9D4;
@@ -226,12 +206,14 @@ img { background-image: url(ashleyPic-large.jpg);}
  .box{
    width: 20%;
    height: 100px;
-   background: lemonchiffon;
+   background: rgba(255, 250, 205, 0.671);
    margin: 20px;
    box-sizing: border-box;
-   font-size: medium;
+   font-size: larger;
    border: 5px solid peru;
+   text-align: center ;
  }
+
 
 
 
