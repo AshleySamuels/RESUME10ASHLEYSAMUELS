@@ -217,8 +217,14 @@ img { background-image: url(ashleyPic-large.jpg);}
 
  .card-group{
    display: flex;
-   padding-right: 4cm;
  }
+
+ .card{
+   border: 3px solid darkslategrey;
+   padding: 50px;
+ }
+
+
 
 
 
