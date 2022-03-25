@@ -112,7 +112,8 @@ footer {
     height: 100px;
     animation-name: animatedSquare;
     animation-duration: 2s;
-    animation-iteration-count: infinite;  
+    animation-iteration-count: infinite;
+    border: solid peru;
   }
 
   @viewport {
@@ -146,7 +147,7 @@ img { background-image: url(ashleyPic-large.jpg);}
   border: 4px solid peru;
 }
 
-.qualifications{
+.education{
   border: 5px solid lemonchiffon;
   border-radius: 5px;
   background: lightblue;
@@ -214,6 +215,10 @@ img { background-image: url(ashleyPic-large.jpg);}
    text-align: center ;
  }
 
+ .card-group{
+   display: flex;
+   padding-right: 4cm;
+ }
 
 
 
